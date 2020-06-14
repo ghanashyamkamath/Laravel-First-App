@@ -34,4 +34,8 @@ Route::get('/about','PagesController@about');
 
 Route::get('/services','PagesController@services');  
 
+// to get routes to all resource functions use route resource 
+// Route::resource
+Route::resource('posts','PostsController');
+
 
