@@ -8,6 +8,7 @@
         <small>Written on{{$post->created_at}}</small>
         </div>
         @endforeach
+        {{$posts->links()}}
     @else
         <p>No posts Found</p>   
     @endif 
